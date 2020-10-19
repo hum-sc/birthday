@@ -15,16 +15,16 @@ body{
     position: relative;
     display: flexbox;
     text-align: center;
-    /*font-size: 3em;*/     
+    font-size: 3em;   
     font-family: Helvetica,Arial;
     color: white;
     font-weight: bolder;
 }
-.NOMBRE{
+.nombre{
     position: relative;
     display: flexbox;
     text-align: center;
-    /*font-size: 3em;*/     
+    font-size: 5em;    
     font-family: Helvetica,Arial;
     color: white;
     font-weight: bolder;
