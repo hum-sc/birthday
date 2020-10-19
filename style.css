@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+.bongo{
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+}
+.bongogf{
+    position: relative;
+
+}
+.cumpleaños{
+    position: relative;
+    display: flexbox;
+    text-align: center;
+    /*font-size: 3em;*/     
+    font-family: Helvetica,Arial;
+    color: white;
+    font-weight: bolder;
+}
+.NOMBRE{
+    position: relative;
+    display: flexbox;
+    text-align: center;
+    /*font-size: 3em;*/     
+    font-family: Helvetica,Arial;
+    color: white;
+    font-weight: bolder;
+}
