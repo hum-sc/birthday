@@ -6,7 +6,6 @@ body{
     display: flexbox;
     width: 100%;
     margin-left: auto; margin-right: auto;
-    margin-top: auto; margin-bottom: auto;
 }
 .bongogf{
     position: relative;
@@ -20,7 +19,7 @@ body{
     font-family: Helvetica,Arial;
     color: white;
     font-weight: bolder;
-
+    margin-bottom: 1em;
 }
 .nombre{
     position: relative;
@@ -30,4 +29,5 @@ body{
     font-family: Helvetica,Arial;
     color: white;
     font-weight: bolder;
+    margin-top: 1em;
 }
