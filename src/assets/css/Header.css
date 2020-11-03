@@ -1,0 +1,51 @@
+.Header{
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    color: honeydew;
+    box-shadow:0px 5px 5px rgb(0,0,0);
+    overflow: visible;
+}
+.Titlebox{
+    display: flex;
+    flex-direction: column;
+    width: calc(100px + 10vw);
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.Title-Header{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: calc(10px + 1vmin);
+    margin-top: 1vmin;
+    font-weight: bolder;
+}
+.Subtitle-Header{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: calc(10px + .8vmin);
+    margin-bottom: 1vmin;
+    font-weight: lighter;
+    color: white;
+
+}
+.Subtitle-Header p{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.Title-Header h1{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
