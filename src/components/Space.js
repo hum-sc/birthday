@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import '../assets/css/Space.css'
 import Bongo from '../assets/images/bongo.gif'
+import Cancion from '../assets/Songs/song.mp3';
+import {Howl, Howler} from 'howler';
 function generarLetra(){
     var letras = ["a","b","c","d","e","f","0","1","2","3","4","5","6","7","8","9"];
     var numero = (Math.random()*15).toFixed(0);
     return letras[numero];
 }
 
+var sound = new Howl({
+    src:Cancion,
+    autoplay: true,
+    loop: true
+});
 function colorHEX(){
     var coolor = "#";
     
@@ -26,6 +33,7 @@ class Space extends Component {
                 {
                     color: colorHEX()
                 }
+
             )
     }
 
@@ -39,9 +47,10 @@ class Space extends Component {
                     <div className='Gif' >
                         <img src={Bongo} alt='Bongo'></img>
                     </div>
-                    <div className='Nombre' onStart={setInterval(this.cambiar, 100)}>
-                        <p>Diana</p>
+                    <div className='Nombre' onStart={setInterval(this.cambiar, 100)} >
+                        <p> Pame </p>
                     </div>
+                    
                 </div>
             </React.Fragment>
         );

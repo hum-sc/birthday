@@ -1,51 +1,53 @@
+
 .Header{
-    height: min-content;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(53, 53, 53);
-    color: honeydew;
-    box-shadow:0px 5px 5px rgb(0,0,0);
-    overflow: visible;
+    flex-wrap: wrap;
+    height: 60px;
+    align-content: center;
+    justify-content:center;
+    color: ivory;
+    background-color: rgb(36, 36, 36);
 }
+
 .Titlebox{
+    margin:0px;
+    padding: 0px;
+    height: 50px;
     display: flex;
     flex-direction: column;
-    width: calc(100px + 10vw);
     flex-wrap: wrap;
-    margin-left: 10px;
+    justify-content: center;
+    align-content: center;
+   
 }
-.Title-Header{
+.Title-Header {
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: calc(10px + 1vmin);
-    margin-top: 1vmin;
     font-weight: bolder;
+    font-size: 2.2vmax;
+} 
+.Title-Header p{
+    margin: 0vmin;
+    padding: 0vmin;
+    
 }
 .Subtitle-Header{
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: calc(10px + .8vmin);
-    margin-bottom: 1vmin;
-    font-weight: lighter;
-    color: white;
+    font-size: 1vmax;
+    align-content: right;
+    align-self: flex-end;
+    font-stretch: narrower;
+    letter-spacing: 1.5px;
+}
+.Subtitle-Header a p{
+    color: ivory;
+    margin: 0vmin;
+    padding: 0vmin;
+}
 
+a:link{
+    text-decoration: none;
 }
-.Subtitle-Header p{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
-.Title-Header h1{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
+a:visited{
+    text-decoration: none;
 }
