@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/birthday/static/css/main.5ceed87e.chunk.css",
-    "main.js": "/birthday/static/js/main.e72657e2.chunk.js",
-    "main.js.map": "/birthday/static/js/main.e72657e2.chunk.js.map",
+    "main.css": "/birthday/static/css/main.4fee6915.chunk.css",
+    "main.js": "/birthday/static/js/main.364dbe61.chunk.js",
+    "main.js.map": "/birthday/static/js/main.364dbe61.chunk.js.map",
     "runtime-main.js": "/birthday/static/js/runtime-main.9db3ab80.js",
     "runtime-main.js.map": "/birthday/static/js/runtime-main.9db3ab80.js.map",
     "static/js/2.1fda324a.chunk.js": "/birthday/static/js/2.1fda324a.chunk.js",
@@ -10,15 +10,15 @@
     "static/js/3.1b19588d.chunk.js": "/birthday/static/js/3.1b19588d.chunk.js",
     "static/js/3.1b19588d.chunk.js.map": "/birthday/static/js/3.1b19588d.chunk.js.map",
     "index.html": "/birthday/index.html",
-    "static/css/main.5ceed87e.chunk.css.map": "/birthday/static/css/main.5ceed87e.chunk.css.map",
+    "static/css/main.4fee6915.chunk.css.map": "/birthday/static/css/main.4fee6915.chunk.css.map",
     "static/js/2.1fda324a.chunk.js.LICENSE.txt": "/birthday/static/js/2.1fda324a.chunk.js.LICENSE.txt",
     "static/media/bongo.817da40b.gif": "/birthday/static/media/bongo.817da40b.gif",
-    "static/media/ringtones-be-happy.5475deea.mp3": "/birthday/static/media/ringtones-be-happy.5475deea.mp3"
+    "static/media/song.81242d52.mp3": "/birthday/static/media/song.81242d52.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.9db3ab80.js",
     "static/js/2.1fda324a.chunk.js",
-    "static/css/main.5ceed87e.chunk.css",
-    "static/js/main.e72657e2.chunk.js"
+    "static/css/main.4fee6915.chunk.css",
+    "static/js/main.364dbe61.chunk.js"
   ]
 }
