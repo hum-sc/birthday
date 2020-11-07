@@ -48,7 +48,7 @@ class Space extends Component {
                         <img src={Bongo} alt='Bongo'></img>
                     </div>
                     <div className='Nombre' onStart={setInterval(this.cambiar, 100)} >
-                        <p> Pame </p>
+                        <p> Diana </p>
                     </div>
                     
                 </div>
